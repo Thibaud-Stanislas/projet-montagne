@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #header-content {
+        color: rgb(243, 243, 243);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

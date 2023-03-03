@@ -1,1 +1,60 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "inter-bold";
+  src: url(/assets/font/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "merri";
+  src: url(/assets/font/static/Merriweather-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited {
+  color: rgb(243, 243, 243);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 7px 21px;
+  font-size: 0.7rem;
+  background: #fff5f5;
+  border-radius: 0px;
+  border-width: 1px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: font2;
+}
+
+body {
+  background: url(/assets/img/bg.jpg) fixed center/cover;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header #header-content {
+  color: rgb(243, 243, 243);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
