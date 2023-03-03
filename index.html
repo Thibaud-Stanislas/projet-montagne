@@ -11,84 +11,99 @@
 </head>
 
 <body>
+    <!--------header------>
     <header>
         <div>
             <h1>LA MONTAGNE CA VOUS GAGNE</h1>
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel facere sunt similique inventore
                 reprehenderit.</P>
-            <i class="fa-regular fa-arrow-down"></i>
+            <span><a href="#main"><i class="fa-regular fa-arrow-down"></i></a></i></span>
         </div>
-        <div>
-            <nav>
-                <div>
-
-                    <ul>
-                        <li>THIS MASSIVELY</li>
-                        <li>GENERIC PAGE</li>
-                        <li>ELEMENTS REFERENCE</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-brands fa-github"></i></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#">THIS MASSIVELY</a></li>
+                <li><a href="#">GENERIC PAGE</a></li>
+                <li><a href="#">ELEMENTS REFERENCE</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></i></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></i></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></i></li>
+            </ul>
+        </nav>
     </header>
-
-    <section>
-        <div>
-            <h2>April 25, 2017</h2>
-        </div>
-        <div>
-            <h3>AND THIS IS A MASSIVE HEADLINE</h3>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis ullam sint placeat doloremque
-                blanditiis iure non animi reprehenderit, optio sequi maiores enim voluptate hic!</P>
-        </div>
-        <div>
-            <img src="" alt="homme qui cour en montagne">
-        </div>
-
-        <div>
-            <button>FULL STORY</button>
-        </div>
-    </section>
-    <section>
-        <div>
+    <!------main------>
+    <main id="main">
+        <!------ section1 ------>
+        <section>
             <div>
-                <h2>April 24, 2017</h2>
-                <h3>SED MAGNA IPSUM FAUCIBUS</h3>
+                <span>April 25, 2017</span>
+                <h2>AND THIS IS A MASSIVE HEADLINE</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis ullam sint placeat doloremque
+                    blanditiis iure non animi reprehenderit, optio sequi maiores enim voluptate hic!</P>
+                <img src="./assets/img/pic01.jpg" alt="homme qui cour en montagne">
+                <button>FULL STORY</button>
+            </div>
+        </section>
+        <!------ section2 ------>
+        <section>
+            <div>
+                <span>April 24, 2017</span>
+                <h2>SED MAGNA <br> IPSUM FAUCIBUS</h2>
+                <img src="./assets/img/pic02.jpg" alt="paysage au sommet des montagnes avec le soleil couchant">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt animi quaerat alias ipsum illum!
+                    Aliasa
+                    explicabo deleniti libero voluptas!</p>
+                <button class="btn">FULL STORY</button>
             </div>
             <div>
-                <img src="" alt="paysage au sommet des montagnes avec le soleil couchant">
+                <span>April 22, 2017</span>
+                <h2>PRIMIS EGET <br> IMPERDIET LOREM</h2>
+                <img src="./assets/img/pic03.jpg" alt="paysage au sommet des montagnes avec le soleil couchant">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt animi quaerat alias ipsum illum! Alias
+                    a explicabo deleniti libero voluptas!</p>
+                <button class="btn">FULL STORY</button>
             </div>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt animi quaerat alias ipsum illum! Alias a
-                explicabo deleniti libero voluptas!</p>
-            <button>FULL STORY</button>
-        </div>
-        <div>
-            <div>
-                <h2>April 22, 2017</h2>
-                <h3>PRIMIS EGET IMPERDIET LOREM</h3>
-            </div>
-            <div>
-                <img src="" alt="paysage au sommet des montagnes avec le soleil couchant">
-            </div>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt animi quaerat alias ipsum illum! Alias a
-                explicabo deleniti libero voluptas!</p>
-            <button>FULL STORY</button>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
-
+        <div id="form">
+            <form action="">
+                <label for="nom">NAME</label>
+                <input type="text" id="nom">
+                <label for="email">EMAIL</label>
+                <input type="email" id="nom">
+                <label for="message">MESSAGE</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <div>
+                    <input type="submit" class="btn" value="send message">
+                </div>
+            </form>
+            <div>
+                <div>
+                    <h3>ADRESSE</h3>
+                    <p>1234 Somewhere Road #87257 <br>Nashville, TN 00000-0000</p>
+                </div>
+                <div>
+                    <h3>PHONE</h3>
+                    <p>(000) 000-0000</p>
+                </div>
+                <div>
+                    <h3>EMAIL</h3>
+                    <p><a href="#">info@untitled.ltd</a></p>
+                </div>
+                <div>
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></i></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></i></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
